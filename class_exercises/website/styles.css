@@ -1,0 +1,43 @@
+nav ul{
+  text-align: center;
+  list-style-type: none;
+  margin: 100;
+  padding: 5 px;
+  width: auto;
+  background-color: #fefee1;
+
+}
+
+nav ul li {
+  display: inline;
+  font-size: 30px;
+  padding: 15px 60px;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: #fdca96;
+  color: blue;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 400px;
+  height: 400px%;
+}
+
+.row{
+  display: flex;
+}
+
+.column{
+  flex: 33.33%;
+  padding: 30px;
+}
