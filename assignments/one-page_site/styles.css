@@ -71,7 +71,11 @@ nav {
 }
 
 .nav-wrapper{
-  margin-top: -428px;
+  top: 0;
+  position: fixed;
+  right: 0;
+  -webkit-transform: translateZ(0) /*there's a bug apparently with using translateZ that affects the fixed property function in chrome, which I used for the parallax...
+  I tried inserting this code to fix it but it still doesn't work :-( */
 }
 
 .nav-wrapper li{
