@@ -1,66 +1,14 @@
-html {
-  height: 100%;
-  overflow: hidden;
-
-}
-
-/*Followed this tutorial for Parallax effect: https://www.youtube.com/watch?v=6CQ7DYni7Bg*/
-body {
+#home {
   color: white;
-  margin: 0;
-  padding: 0;
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
   font-family: Helvetica;
-
-}
-
-header{
-  box-sizing: border-box;
-  min-height: 100vh;
-  padding: 30vw 0 5vw;
-  position: relative;
-  transform-style: inherit;
-  width: 100vw;
-}
-
-header h1 {
-  margin-top: -100px;
-}
-
-header. header:before {
-  background: 50% 50% / cover;
-}
-
-header::before{
-  bottom: 0;
-  content: "";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: block;
   background-image: url(BG.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  transform-origin: center center 0;
-  transform: translateZ(-1px) scale(2);
-  z-index: -1;
-  min-height: 100vh;
+  background-attachment: fixed;
+  height: 100%;
+  padding: 300px
 }
-
-header * {
-  font-weight: normal;
-  letter-spacing: 0.2em;
-  text-align: center;
-  margin: 0;
-  padding: 1em 0;
-
-}
-
-/*end tutorial */
 
 nav {
   text-align: center;
@@ -74,8 +22,6 @@ nav {
   top: 0;
   position: fixed;
   right: 0;
-  -webkit-transform: translateZ(0) /*there's a bug apparently with using translateZ that affects the fixed property function in chrome, which I used for the parallax...
-  I tried inserting this code to fix it but it still doesn't work :-( */
 }
 
 .nav-wrapper li{
@@ -95,19 +41,22 @@ nav {
 
 #home h1 {
   text-shadow: 2px 2px #ff0000;
+  text-align: center;
 
 }
 #home p{
   text-shadow: 2px 2px #ff0000;
+  text-align: center;
 }
 
 #eastcoast {
   background-color: #ffb2b2;
-  height: 80%;
+  height: 600px;
+  padding: 10px;
 }
 
 #eastcoast img{
-  padding-top: 30px;
+
   padding-left: 25%;
 }
 
@@ -115,19 +64,22 @@ nav {
   display: block;
   font-size: 25px;
   width: 600px;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 29%;
 
 }
 
-
+h2 {
+  color: white;
+  font-family: Helvetica;
+}
 
 #westcoast {
   overflow: hidden;
-  height: 80%;
+  height:650px;
   background-color: #ffcccc;
-  padding: 80px 0px 0px 0px;
   text-align: center;
+  padding-top: 50px;
 }
 
 /*slide show tutorial used: https://www.youtube.com/watch?v=pGHOaY4dhAA*/
