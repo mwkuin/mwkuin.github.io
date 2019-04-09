@@ -306,3 +306,53 @@ path {
   text-align: center;
   padding-top: 50px;
 }
+
+/*break points for about page*/
+@media only screen and (max-width:950px) { /*small screen */
+  #more-about img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  #more-about h1{
+    margin-left: 0%;
+    position: relative;
+    text-align: center;
+    margin-top: 0%;
+  }
+
+  #more-about-text {
+    font-size: 25px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    position: relative;
+    text-align: center;
+  }
+
+}
+@media only screen and (min-width:1000px) { /*medium screen*/
+  #more-about-text{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width:1200px) { /*big screen*/
+  #more-about img {
+    width: 23%;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  #more-about h1{
+    font-size: 60px;
+  }
+
+  #more-about-text{
+    font-size: 15px;
+    margin-top: 18%;
+  }
+}
