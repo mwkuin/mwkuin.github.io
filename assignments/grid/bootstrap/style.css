@@ -1,0 +1,48 @@
+.container-fluid {
+    background-color: blue;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#first {
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+    text-align: center;
+}
+
+#first p {
+    position: relative;
+    top: 40%;
+    color: white;
+    font-size: 80px;
+    font-family: arial;
+}
+
+.long {
+    height: 800px;
+    background-color: green;
+    width: 50%;
+}
+
+.side {
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.row {
+    height: fit-content;
+}
+
+.short {
+    height: 400px;
+}
+
+#right_side1 {
+    background-color: blue;
+}
+
+#right_side2 {
+    background-color: red;
+}
