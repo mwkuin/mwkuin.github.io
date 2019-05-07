@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+    <title>Eating Your Feed</title>
+  </head>
+
+  <body>
+
+    <section class="intro">
+      <div class="inner">
+        <div class="content">
+          <ul class="fly-in-text hidden">
+            <li>H</li>
+            <li>U</li>
+            <li>N</li>
+            <li>G</li>
+            <li>R</li>
+            <li>Y</li>
+            <li>?</li>
+          </ul>
+          <a class="button" href="#enter">Enter</a>
+        </div>
+      </div>
+    </section>
+
+    <div id="enter">
+      <h1>Pick Your Dessert</h1>
+
+      <div id="image_container">
+        <div class = "image">
+        <div class="card middle">
+          <div class="front">
+            <img src="kitsby.jpg">
+          </div>
+
+          <div class="back">
+            <div class="back-content middle">
+              <h2>Kitsby Cafe</h2>
+              <span>Specialty: Cream Puffs</span>
+              <div class="sm">
+                <a href="https://www.instagram.com/thekitsby/"><i class="fa fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+      <div class = "image">
+        <div class="card middle">
+          <div class="front">
+            <img src="taiyaki.png">
+          </div>
+
+          <div class="back">
+            <div class="back-content middle">
+              <h2>Taiyaki NYC</h2>
+              <span>Specialty: Taiyaki Ice Cream</span>
+              <div class="sm">
+                <a href="https://www.instagram.com/taiyakinyc/"><i class="fa fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class = "image">
+      <div class="card middle">
+        <div class="front">
+          <img src="do.jpg">
+        </div>
+
+        <div class="back">
+          <div class="back-content middle">
+            <h2>DŌ, Cookie Dough Confections</h2>
+            <span>Specialty: Cookie Dough</span>
+            <div class="sm">
+              <a href="https://www.instagram.com/cookiedonyc/"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!--end image container-->
+</div> <!--end enter section-->
+
+    <div id="order">
+      <div id="map">
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1C1UhzJTk2JViVw5UlfLeGj2Amn2IocON"></iframe>
+      </div>
+
+    <form id="simpleForm">
+      <div>
+      <label for="myName">Name:</label>
+      <input type="text" name="myName" id="myName">
+      </div>
+
+      <div>
+      <label for="email">Email:</label>
+      <input type="text" name="email" id="email">
+      </div>
+
+      <div>
+      <label for="address">Address:</label>
+      <input type="text" name="email" id="email">
+      </div>
+
+      <div>
+      <label id ="YourOrder" for="comments">Your Order:</label>
+      <textarea name="comments" id="comments" rows="20" cols="50"></textarea>
+      </div>
+
+      <div>
+      <input type="submit" value="Send Now">
+      </div>
+    </form>
+
+  <script src="script.js"></script>
+
+  </body>
+</html>
